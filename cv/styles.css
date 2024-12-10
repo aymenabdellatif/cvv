@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /
+}
+
+.button {
+    padding: 25px 40px;
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary {
+    background-color: #d6e2ee; 
+}
+
+.button-primary:hover {
+    background-color: #d6e2ee; 
+}
+
+.button-secondary {
+    background-color: #646865; 
+}
+
+.button-secondary:hover {
+    background-color: #646865; 
+}
